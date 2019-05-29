@@ -22,6 +22,7 @@ public class signin extends AppCompatActivity {
     private EditText Password;
     private Button Signin;
     private FirebaseAuth mAuth;
+    private TextView signup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +36,13 @@ public class signin extends AppCompatActivity {
         }
         else
         {
+            signup = (TextView) findViewById(R.id.SSIGNUP);
+            signup.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    finish();
+                }
+            });
             Signin = (Button) findViewById(R.id.SSIGNIN);
             Signin.setOnClickListener(new View.OnClickListener() {
                 @Override
