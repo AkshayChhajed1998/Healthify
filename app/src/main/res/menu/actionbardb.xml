@@ -1,0 +1,21 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/close"
+        android:icon="@drawable/cancel"
+        android:iconTint="#FFFF00"
+        app:showAsAction="ifRoom|withText"
+        android:title="Hurry"
+        android:onClick="close"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/log_out"
+        android:iconTint="#FFFF00"
+        app:showAsAction="ifRoom|withText"
+        android:title="Hurry"
+        android:onClick="signout"
+        />
+</menu>

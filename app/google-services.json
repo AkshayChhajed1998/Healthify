@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "622997049206",
+    "firebase_url": "https://healthify-76447.firebaseio.com",
+    "project_id": "healthify-76447",
+    "storage_bucket": "healthify-76447.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622997049206:android:d13df900d5037d72",
+        "android_client_info": {
+          "package_name": "com.example.workstation.healthify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622997049206-8qj4894e76aibu5schak0soardg9cs6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.workstation.healthify",
+            "certificate_hash": "38f2177e37e3a474e4c8adf31ddae8236428b4ea"
+          }
+        },
+        {
+          "client_id": "622997049206-99jl492u9coiq19a11a1mjrrq11q2c1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO0bvW2RaclhM49LM1S4oXs_9JRyQh2Hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622997049206-99jl492u9coiq19a11a1mjrrq11q2c1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
